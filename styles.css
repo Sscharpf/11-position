@@ -1,5 +1,18 @@
 html {
-    background-color: lightskyblue;
+    background-color: rgb(255, 244, 224);
+    font-family: "Quicksand", sans-serif;
+}
+
+code {
+    background-color: pink;
+    color: rgb(199, 17, 108);
+    padding: 2px;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
+}
+
+.heading {
+    color: rgb(67, 32, 9);
 }
 
 .site-nav {
@@ -35,7 +48,7 @@ html {
 .drop-link {
     display: block;
     padding: 10px 30px;
-    color: black;
+    color: rgb(67, 32, 9);
     text-decoration: none;
 }
 
@@ -45,4 +58,9 @@ html {
 
 .has-drop:hover .dropdown {
     display: block;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
 }
